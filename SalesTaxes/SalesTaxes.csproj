@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SalesTaxes.Calculator\SalesTaxes.Business.csproj" />
+    <ProjectReference Include="..\SalesTaxes.Entities\SalesTaxes.Entities.csproj" />
+    <ProjectReference Include="..\SalesTaxes.General\SalesTaxes.General.csproj" />
+    <ProjectReference Include="..\SalesTaxes.Interfaces\SalesTaxes.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
